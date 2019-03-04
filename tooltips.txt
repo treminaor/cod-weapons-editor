@@ -1,0 +1,552 @@
+>test
+tooltip("Select platform-gametype this weapon will be used in.")
+
+tooltip("Localization alias for weapon name displayed on HUD in game.")
+
+tooltip("Localization alias for selective fire mode text displayed on HUD in game.")
+
+tooltip("Select an Player Anim Type - specifies \"playerAnimType\" in playeranim.script")
+
+tooltip("Weapon to switch to when this weapon's selective fire mode is switched in the game.")
+
+tooltip("Localization alias for text shown when crosshair is placed over a friendly. Eg. Rifleman, Submachine Gunner, etc.")
+
+tooltip("Select what sort of inventory this weapon is.")
+
+tooltip("Select a weapon type.")
+
+tooltip("Select an appropriate class for this weapon.")
+
+tooltip("Type of bullet penetration.")
+
+tooltip("The impact type, used to play impact effects based on surfacetype")
+
+tooltip("Behavior of the weapon when the trigger is held down.")
+
+tooltip("Determines how the clip gets inserted into the weapon.")
+
+tooltip("Not used in CoD2.")
+
+tooltip("Uses pistol bullets if not checked. Rifle bullets apply damage to the highest priority hit location (locationdamage.gdt) along the bullet's path, and will go through people. Pistol bullets don't.")
+
+tooltip("Does damage to armored targets if checked.")
+
+tooltip("Turn this on for bolt-action weapons only. Animation control.")
+
+tooltip("Must be turned on for proper viewmodel appearance of a weapon that can be Aimed Down the Sight (ADS).")
+
+tooltip("Can only be fired ADS.  Firing from the hip brings up ADS.")
+
+tooltip("Weapon can be rechambered while in ADS.")
+
+tooltip("Disallow auto-reloading while the weapon is in ADS.")
+
+tooltip("Disallow ADS when magazine is empty.")
+
+tooltip("Avoid having dropped weapons of this type deleted to make room for new ones.")
+
+tooltip("When noPartialReload is set for a weapon, it can not be reloaded unless reloadAmmoAdd amount of ammo can be put into the gun. If reloadAmmoAdd is 0, it's treated as the weapon's clip size.")
+
+tooltip("Turn on for weapons that reload X rounds at a time (Lee-Enfield, bolt-action sniper rifles), set reload amounts in Reload Ammo Add and Reload Start Add.")
+
+tooltip("This weapon will be an upgraded version of the ones with the same ammo type.")
+
+tooltip("This weapon is equipped with a bayonet, which will be used for melee attacks.")
+
+tooltip("The player cannot go prone when they have this weapon equiped.")
+
+tooltip("This weapon is considered silenced.")
+
+tooltip("When using nightvision, this weapon will emit an infrared laser.")
+
+tooltip("This weapon can be mounted on mount brushes")
+
+tooltip("The time it takes to deploy this weapon")
+
+tooltip("The time it takes to breakdown this weapon if it is deployed")
+
+tooltip("This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while standing")
+
+tooltip("This is the model that will be used if the weapon is mounted")
+
+tooltip("This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while crouching")
+
+tooltip("This is the weapondef in turretsettings.gdt that will be used if the weapon is mounted while prone")
+
+tooltip("The range in at which friendly names appear and friendly or enemy changes your crosshair color.")
+
+tooltip("Change crosshair color if pointing at friendly or enemy")
+
+tooltip("When using this weapon, player movement speed is multiplied by this amount.")
+
+tooltip("When using this weapon and in ADS, player movement speed is multiplied by this amount.")
+
+tooltip("When sprinting with this weapon, sprint duration is multiplied by this amount.")
+
+tooltip("The game optionally displays low-ammo warnings when remaining clip ammo goes below this percentage.")
+
+tooltip("Maximum allowed vertical ascent of the viewmodel due to recoil (degrees).")
+
+tooltip("Maximum allowed horizontal travel of the viewmodel due to recoil (degrees).")
+
+tooltip("(Console only.) The range in world units up to which entering ADS will lock-on to enemies. (1 world unit = 1 inch)")
+
+tooltip("(Console only.) The range in world units up to which the crosshair will stick to targets. (1 world unit = 1 inch)")
+
+tooltip("(Console only.) The range in world units up to which the crosshair will stick to targets in ADS. (1 world unit = 1 inch)")
+
+tooltip("Allows different weapons to share the same ammo pool.")
+
+tooltip("Allows different weapons to share clips. Used for weapons that have a selective fire option, and would therefore need to use the same type of clip.")
+
+tooltip("Max ammo the player can collect for this weapon. No effect on AI.")
+
+tooltip("How much ammo the player gets when starting with this weapon. One clip/magazine from this amount will be already in the weapon. No effect on AI.")
+
+tooltip("Specifies how many bullets per clip/magazine.")
+
+tooltip("When dropped by AI/player/hand-placed in editor, contains at least this much ammo. Not limited to real-life clip/magazine size.")
+
+tooltip("When dropped by AI/player/hand-placed in editor, contains no more than this much ammo. Not limited to real-life clip/magazine size.")
+
+tooltip("Specifies how many chunks per shotgun blast.")
+
+tooltip("For weapons with Segmented Reload turned on. Amount to add when reloading with some amount of bullets still remaining in the weapon.")
+
+tooltip("For weapons with Segmented Reload turned on. Amount to add for the first reload segment (ie: when weapon is empty.)")
+
+tooltip("When weapons are empty, they are normally auto-swapped to the next usable weapon in the player's inventory.  This disables that.")
+
+tooltip("")
+
+tooltip("Damage per-bullet, applied beyond Min Dmg Range.")
+
+tooltip("Range in world units, beyond which the minimum damage is applied. (1 world unit = 1 inch)")
+
+tooltip("Damage per-bullet, applied up to Max Dmg Range. Damage falls off linearly from Max Dmg Range until reaching Min Dmg at Min Dmg Range.")
+
+tooltip("Range in world units, up to which the maximum damage is applied. (1 world unit = 1 inch)")
+	
+tooltip("Damage per melee hit.")
+
+tooltip("Damage done to player when hit by an AI")
+
+tooltip("Unrelated to weapon. Used for damage that's not location based, such as grenades or falling.  Included here for completeness.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Damage per-bullet multiplier.")
+
+tooltip("Rate of fire in seconds per round. Maximum possible rate is 0.05 seconds per round, or 1200 rounds per minute.")
+
+tooltip("Delay in seconds between pressing the fire button and the weapon actually firing.")
+
+tooltip("Rate of fire in seconds per melee attack.")
+
+tooltip("Delay in seconds between pressing the fire button and the melee attack actually happening.")
+
+tooltip("Rate of fire in seconds per melee charge attack.")
+
+tooltip("Delay in seconds between pressing the fire button and the melee charge attack actually happening.")
+
+tooltip("The number of seconds over which the non-empty reload animation will be played.  In segmented reload weapons, this is the animation that loops to give the player ammo.")
+
+tooltip("The number of seconds over which the empty reload animation will be played.")
+
+tooltip("During an empty reload, when the gun will literally get more ammo (ammo counter fills up). Uses Reload Add if set to zero.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("For a segmented reload weapon, the number of seconds over which the reload end animation will be played.")
+
+tooltip("During an partial reload, when the gun will literally get more ammo (ammo counter fills up).")
+
+tooltip("Animations will get scaled to match this time.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("At this point in 'Nightvision Wear', player's vision has faded to black as they bring their goggles down.")
+
+tooltip("At this point in 'Nightvision Wear', the player's goggles start their power up.")
+
+tooltip("How long this weapon state will last. The viewmodel animations will get scaled to match the times set.")
+
+tooltip("At this point in 'Nightvision Remove', the player's goggles cut to black.")
+
+tooltip("At this point in 'Nightvision Remove', the player's vision fades from black to normal as they remove their goggles.")
+
+tooltip("When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)")
+
+tooltip("Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)")
+
+tooltip("Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("A multiplier applied to the standard horizontal bob for weapons when sprinting domain 0-10")
+
+tooltip("A multiplier applied to the standard vertical bob for weapons when sprinting domain 0-10")
+
+tooltip("A multiplier applied to xy movement of the viewmodel during sprint higher is faster")
+
+tooltip("Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)")
+
+tooltip("Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)")
+
+tooltip("Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)")
+
+tooltip("Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Not used.")
+
+tooltip("Controls speed of viewmodel translation while moving in stand and crouch, transitions between stand and crouch, and crouch into prone.")
+
+tooltip("Not used.")
+
+tooltip("Rotational speed of viewmodel in standing and crouching. If this is set in the prone section, a value should be entered here so that the viewmodel is able to rotate back to normal in crouch and stand.")
+
+tooltip("Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)")
+
+tooltip("Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)")
+
+tooltip("Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)")
+
+tooltip("Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("A multiplier applied to the standard horizontal bob for weapons when crouch sprinting domain 0-10")
+
+tooltip("A multiplier applied to the standard vertical bob for weapons when crouch sprinting domain 0-10")
+
+tooltip("A multiplier applied to xy movement of the viewmodel during crouched sprint higher is faster")
+
+tooltip("Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)")
+
+tooltip("Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)")
+
+tooltip("Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)")
+
+tooltip("Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)")
+
+tooltip("Not used.")
+
+tooltip("Not used.")
+
+tooltip("Viewmodel will translate forward/backward by this amount if the player is moving in this stance. (+/- for forward/backward respectively)")
+
+tooltip("Viewmodel will translate horizontally by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will translate vertically by this amount if the player is moving in this stance. (+/- for up/down respectively)")
+
+tooltip("Viewmodel will pitch by this amount if the player is moving in this stance. (+/- for down/up respectively)")
+
+tooltip("Viewmodel will yaw by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("Viewmodel will roll by this amount if the player is moving in this stance. (+/- for left/right respectively)")
+
+tooltip("When the player changes to this stance, the viewmodel will slide forward by this amount. (-ive for backward)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate horizontally by this amount. (+/- for left/right respectively)")
+
+tooltip("When the player changes to this stance, the viewmodel will translate vertically by this amount. (+/- for up/down respectively)")
+
+tooltip("Not used.")
+
+tooltip("Controls the speed of viewmodel translation while moving in this stance and changing to crouched.")
+
+tooltip("Not used.")
+
+tooltip("Controls the speed of viewmodel rotation while moving in this stance.")
+
+tooltip("Strength of viewmodel wavering motion when in hipfire position.")
+
+tooltip("Strength of range of viewmodel (or sniper rifle overlay) wavering motion when in ADS.")
+
+tooltip("How fast the viewmodel wavers in hipfire position within Hip Amount.")
+
+tooltip("How fast the viewmodel wavers in ADS within ADS Amount.")
+
+tooltip("Hip/ADS Amount multiplier for reducing viewmodel wavering when in this stance.")
+
+tooltip("Hip/ADS Amount multiplier for reducing viewmodel wavering when in this stance.")
+
+tooltip("Size of bullet spread cone when firing in ADS mode. Bullets will project randomly within the confines of the cone.")
+
+tooltip("Adjusts the pitch of the viewmodel in ADS. Defaults to 0, -6 is perfectly centered.")
+
+tooltip("Time it will take to switch from hipfire to ADS.")
+
+tooltip("Time it will take to switch from ADS to hipfire.")
+
+//		tooltip("Not used in CoD2.")
+
+tooltip("Time it takes once you start the reload to re-enter ADS. (ie: It allows you to finish up reloading while you enter ADS.")
+
+tooltip("Fraction of the hipfire-to-ADS transition time over which the crosshair disappears.")
+
+tooltip("Fraction of the ADS-to-hipfire transition time over which the crosshair appears.")
+
+tooltip("Field of view when in ADS.")
+
+tooltip("Fraction of the hipfire-to-ADS transition time over which the FOV zoom-in effect happens.")
+
+tooltip("Fraction of the ADS-to-hipfire transition time over which the FOV zoom-out effect happens.")
+
+tooltip("Strength of viewmodel bobbing due to player movement when using this weapon.")
+
+tooltip("Bob Factor multiplier for view bobbing due to player movement when using this weapon in ADS.")
+
+tooltip("Min View Error.")
+
+tooltip("Max View Error.")
+
+tooltip("Smallest diameter the crosshairs can contract to.")
+
+tooltip("Largest diameter the crosshairs can expand to while standing.")
+ 
+tooltip("Rate at which the crosshairs try to return to the Min hip spread size.")
+
+tooltip("Size of the crosshairs at rest when crouched.")
+
+tooltip("Largest diameter the crosshairs can expand to while crouched.")
+ 
+tooltip("Multiplier of Decay Rate for crouched stance, controlling how fast the crosshairs return to Crouch Min.")
+
+tooltip("Size of the crosshairs at rest when prone.")
+
+tooltip("Largest diameter the crosshairs can expand to while prone.")
+ 
+tooltip("Multiplier of Decay Rate for prone stance, controlling how fast the crosshairs return to Prone Min.")
+
+tooltip("Amount by which the crosshairs expand per bullet fired.")
+
+tooltip("Rate of crosshair expansion due to player movement.")
+
+tooltip("Rate of crosshair expansion due to player panning the view in any direction.")
+
+tooltip("Hipfire viewmodel control reduced kick number of bullets. This is the number of bullets before the weapon uses a full kick amount.")
+
+tooltip("ADS viewmodel control reduced kick number of bullets. This is the number of bullets before the weapon uses a full kick amount.")
+
+tooltip("Hip viewmodel control reduced kick percentage. This is the percentage of the full kick amount to kick the gun for the first few bullets.")
+
+tooltip("ADS viewmodel control reduced kick percentage. This is the percentage of the full kick amount to kick the gun for the first few bullets.")
+
+tooltip("Hipfire viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Pitch.")
+
+tooltip("ADS viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100.")
+
+tooltip("Hipfire viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Pitch.")
+
+tooltip("ADS viewmodel control. +/- sign means 'kick down/up'. Larger absolute numbers increase viewmodel climb/descent. From -100 to 100.")
+
+tooltip("Hipfire viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Yaw.")
+
+tooltip("ADS viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100.")
+
+tooltip("Hipfire viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100. Actual viewmodel angle will not exceed Max Gun Yaw.")
+
+tooltip("ADS viewmodel control. +/- sign means 'kick left/right'. Larger absolute numbers increase viewmodel yawing. From -100 to 100.")
+
+tooltip("Rate at which viewmodel attempts to recenter in hipfire. Directly opposes yaws and pitch accumulation.")
+
+tooltip("Rate at which viewmodel attempts to recenter in ADS. Directly opposes yaws and pitch accumulation.")
+
+tooltip("Maximum deflection speed reached by the viewmodel in hipfire.")
+
+tooltip("Maximum deflection speed reached by the viewmodel in ADS.")
+
+tooltip("Strength of decay on viewmodel deflection speed in hipfire.")
+
+tooltip("Strength of decay on viewmodel deflection speed in ADS.")
+
+tooltip("Strength of decay on viewmodel recentering once it has stopped deflecting.")
+
+tooltip("Strength of decay on viewmodel recentering once it has stopped deflecting.")
+
+tooltip("Hipfire view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.")
+
+tooltip("ADS view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.")
+
+tooltip("Hipfire view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.")
+
+tooltip("ADS view kick control. -/+ sign means 'kick down/up'. Larger absolute numbers increase view kick climb/descent. From -100 to 100.")
+
+tooltip("Hipfire view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.")
+
+tooltip("ADS view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.")
+
+tooltip("Hipfire view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.")
+
+tooltip("ADS view kick control. -/+ sign means 'kick right/left'. Larger absolute numbers increase view kick yaw. From -100 to 100.")
+
+tooltip("Speed with which the view continuously attempts to recenter in hipfire.")
+
+tooltip("Speed with which the view continuously attempts to recenter in ADS.")
+
+tooltip("Max angle change that will be applied to the hipfire viewmodel sway.")
+
+tooltip("Max angle change that will be applied to the ADS viewmodel sway.")
+
+tooltip("Speed at which the sway will lerp in hipfire.")
+
+tooltip("Speed at which the sway will lerp in ADS.")
+
+tooltip("Amount of pitch change in the viewmodel to apply to the sway pitch in hipfire.")
+
+tooltip("Amount of pitch change in the viewmodel to apply to the sway pitch in ADS.")
+
+tooltip("Amount of yaw change in the viewmodel to apply to the sway yaw in hipfire.")
+
+tooltip("Amount of yaw change in the viewmodel to apply to the sway yaw in ADS.")
+
+tooltip("Amount of yaw change in the viewmodel to apply to the sway horizontal offset in hipfire.")
+
+tooltip("Amount of yaw change in the viewmodel to apply to the sway horizontal offset in ADS.")
+
+tooltip("Amount of pitch change in the view model to apply to the sway vertical offset in hipfire.")
+
+tooltip("Amount of pitch change in the view model to apply to the sway vertical offset in ADS.")
+
+tooltip("This scale gets applied to the weapon sway while you're in shell shock.")
+
+tooltip("Aggro radius. AI using this weapon try to fight enemies detected in this radius. Center of this circle constantly traces along AI's path up to maxdist.")
+
+tooltip("Effective range radius. AI must get to this distance before opening fire on their target with this weapon.")
+
+tooltip("Graph file for in-game editing of the non-linear accuracy curve used by the AI for this weapon against another AI.")
+
+tooltip("Graph file for in-game editing of the non-linear accuracy curve used by the AI for this weapon against the player.")
+
+tooltip("Center Reticle.")
+
+tooltip("Side Reticle.")
+
+tooltip("Center Size.")
+
+tooltip("Side Size.")
+
+tooltip("Side Position.")
+
+tooltip("Min Offset.")
+
+tooltip("Overlay for sniper rifles in ADS. Uses a quarter circle image to construct a full scope view.")
+
+tooltip("Low resolution verision of the overlay for sniper rifles in ADS. Uses a quarter circle image to construct a full scope view.  The image is used for 480 verticle resolution or lower and for split screen.")
+
+tooltip("Selects a preset image?")
+
+tooltip("name of tags to hide on this model.  one per line")
+
+tooltip("The anim played for a melee charge (use for bayonet weapons)")
+
+tooltip("Fire sound used by player. If not defined, player will play normal 'Fire' that is used by the AI.")
+
+tooltip("Last Shot sound used by player. If not defined, player will play normal 'Last Shot' that is used by the AI.")
+
+tooltip("Empty Fire sound used by player. If not defined, player will play normal 'Empty Fire' that is used by the AI.")
+
+tooltip("Leave empty to use default")
+
+tooltip("Leave empty to use default")
+
+tooltip("Rechamber sound used by player. If not defined, player will play normal 'Deploy' that is used by the AI.")
+
+tooltip("Rechamber sound used by player. If not defined, player will play normal 'Finish Deploy' that is used by the AI.")
+
+tooltip("Rechamber sound used by player. If not defined, player will play normal 'Breakdown' that is used by the AI.")
+
+tooltip("Rechamber sound used by player. If not defined, player will play normal 'Rechamber' that is used by the AI.")
+
+tooltip("Reload sound used by player. If not defined, player will play normal 'Reload' that is used by the AI.")
+
+tooltip("Reload Empty sound used by player. If not defined, player will play normal 'Reload Empty' that is used by the AI.")
+
+tooltip("Reload Start sound used by player. If not defined, player will play normal 'Reload Start' that is used by the AI.")
+
+tooltip("Reload End sound used by player. If not defined, player will play normal 'Reload End' that is used by the AI.")
+
+tooltip("Sounds to play when viewmodel hits different notetrack events.  One per line, format is: NOTETRACKNAME,soundalias")
+
+tooltip("Used for weapons that need to have their kill icon horizontally flipped before displaying. (For MP obituaries).")

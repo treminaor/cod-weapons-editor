@@ -1,0 +1,787 @@
+label("Target Folder")
+>
+label("Display Name")
+
+label("Mode Name")
+
+label("Player Anim Type")
+
+label("Alt Weapon Name")
+
+label("AI Description")
+
+label("Inventory")
+
+label("Type")
+
+label("Class")
+
+label("Penetration")
+
+label("Impact Type")
+
+label("Fire Type")
+
+label("Clip Type")
+
+label("Two Handed")
+
+label("Rifle Bullet")
+
+label("Armor Piercing")
+
+label("Bolt Action")
+
+label("ADS")
+
+label("ADS Fire Only")
+
+label("ADS Rechamber")
+
+label("No ADS Auto-Reload")
+
+label("No ADS With Empty Magazine")
+
+label("No Auto-Cleanup of Dropped Weapon")
+
+label("No Partial Reload")
+
+label("Segmented Reload")
+
+label("Enhanced")
+
+label("Bayonet")
+
+label("Cannot Go Prone")
+
+label("Silenced")
+
+label("Draw Laser Sight in Nightvision")
+
+label("Weapon can be mounted")
+
+label("Deploy Time")
+
+label("Breakdown Time")
+
+label("Standing Weapondef")
+
+label("Mounted Model")
+
+label("Crouching Weapondef")
+
+label("Prone Weapondef")
+
+label("Enemy Crosshair Range")
+
+label("Crosshair Color Change")
+
+label("Move Speed Scale")
+
+label("ADS Move Speed Scale")
+
+label("Sprint Duration Scale")
+
+label("Clip-Ammo Low Warning %")
+
+label("Max Gun Pitch")
+
+label("Max Gun Yaw")
+
+label("Auto Aim Range")
+
+label("Aim Assist Range")
+
+label("Aim Assist Range ADS")
+
+label("Ammo Name")
+
+label("Clip Name")
+
+label("Max Ammo")
+
+label("Start Ammo")
+
+label("Clip Size")
+
+label("Drop Min")
+
+label("Drop Max")
+
+label("Shotgun Shot Count")
+
+label("Reload Ammo Add")
+
+label("Reload Start Add")
+
+label("Do Not Auto-Holster When Empty")
+
+label("Hide Display of Reserve Ammo")
+
+label("Min Dmg")
+
+label("Min Dmg Range")
+
+label("Max Dmg")
+
+label("Max Dmg Range")
+
+label("Melee")
+
+label("AI-player damage")
+
+label("None")
+
+label("Helmet")
+
+label("Head")
+
+label("Neck")
+
+label("Upper Torso")
+
+label("Lower Torso")
+
+label("Left Upper Arm")
+
+label("Right Upper Arm")
+
+label("Left Lower Arm")
+
+label("Right Lower Arm")
+
+label("Left Hand")
+
+label("Right Hand")
+
+label("Left Upper Leg")
+
+label("Right Upper Leg")
+
+label("Left Lower Leg")
+
+label("Right Lower Leg")
+
+label("Left Foot")
+
+label("Right Foot")
+
+label("Gun")
+
+label("Fire")
+
+label("Fire Delay")
+
+label("Melee")
+
+label("Melee Delay")
+
+label("Melee Charge")
+
+label("Melee Charge Delay")
+
+label("Reload")
+
+label("Reload Empty")
+
+label("Reload Empty Add Time")
+
+label("Reload Start")
+
+label("Reload End")
+
+label("Reload Add")
+
+label("Reload Start Add")
+
+label("Rechamber")
+
+label("Rechamber Bolt")
+
+label("Drop")
+
+label("Raise")
+
+label("First Raise")
+
+label("Alt Drop")
+
+label("Alt Raise")
+
+label("Quick Drop")
+
+label("Quick Raise")
+
+label("Empty Drop")
+
+label("Empty Raise")
+
+label("Sprint In")
+
+label("Sprint Loop")
+
+label("Sprint Out")
+
+label("Nightvision Wear")
+
+label("...end of fade-out")
+
+label("...power up")
+
+label("Nightvision Remove")
+
+label("...power down")
+
+label("...start fade-in")
+
+label("Offset Forward")
+
+label("Offset Right")
+
+label("Offset Up")
+
+label("Rot Pitch")
+
+label("Rot Yaw")
+
+label("Rot Roll")
+
+label("Horiz Bob")
+
+label("Vert Bob")
+
+label("MoveSpeed Scale")
+
+label("Move Forward")
+
+label("Move Right")
+
+label("Move Up")
+
+label("Rot Pitch")
+
+label("Rot Yaw")
+
+label("Rot Roll")
+
+label("Move Min Speed")
+
+label("Pos Move Rate")
+
+label("Rot Min Speed")
+
+label("Pos Rot Rate")
+
+label("Offset Forward")
+
+label("Offset Right")
+
+label("Offset Up")
+
+label("Rot Pitch")
+
+label("Rot Yaw")
+
+label("Rot Roll")
+
+label("Horiz Bob")
+
+label("Vert Bob")
+
+label("MoveSpeed Scale")
+
+label("Move Forward")
+
+label("Move Right")
+
+label("Move Up")
+
+label("Rot Pitch")
+
+label("Rot Yaw")
+
+label("Rot Roll")
+
+label("Offset Forward")
+
+label("Offset Right")
+
+label("Offset Up")
+
+label("Move Min Speed")
+
+label("Rot Min Speed")
+
+label("Move Forward")
+
+label("Move Right")
+
+label("Move Up")
+
+label("Rot Pitch")
+
+label("Rot Yaw")
+
+label("Rot Roll")
+
+label("Offset Forward")
+
+label("Offset Right")
+
+label("Offset Up")
+
+label("Move Min Speed")
+
+label("Pos Move Rate")
+
+label("Rot Min Speed")
+
+label("Pos Rot Rate")
+
+label("Hip Amount")
+
+label("ADS Amount")
+
+label("Hip Speed")
+
+label("ADS Speed")
+
+label("Crouch Factor")
+
+label("Prone Factor")
+
+label("Spread")
+
+label("Aim Pitch")
+
+label("Trans In Time")
+
+label("Trans Out Time")
+
+//		label("Trans Blend Time")
+
+label("Reload Trans Time")
+
+label("Crosshair In Frac")
+
+label("Crosshair Out Frac")
+
+label("Zoom FOV")
+
+label("Zoom In Frac")
+
+label("Zoom Out Frac")
+
+label("Bob Factor")
+
+label("View Bob Mult")
+
+label("Min View Error")
+
+label("Max View Error")
+
+label("Stand Min")
+
+label("Stand Max")
+
+label("Decay Rate")
+
+label("Crouch Min")
+
+label("Crouch Max")
+
+label("Crouch Decay")
+
+label("Prone Min")
+
+label("Prone Max")
+
+label("Prone Decay")
+
+label("Fire Add")
+
+label("Move Add")
+
+label("Turn Add")
+
+label("Hip Red. Kick Bullets")
+
+label("ADS Red. Kick Bullets")
+
+label("Hip Red. Kick Percent")
+
+label("ADS Red. Kick Percent")
+
+label("Hip Pitch Min")
+
+label("ADS Pitch Min")
+
+label("Hip Pitch Max")
+
+label("ADS Pitch Max")
+
+label("Hip Yaw Min")
+
+label("ADS Yaw Min")
+
+label("Hip Yaw Max")
+
+label("ADS Yaw Max")
+
+label("Hip Accel")
+
+label("ADS Accel")
+
+label("Hip Speed Max")
+
+label("ADS Speed Max")
+
+label("Hip Speed Decay")
+
+label("ADS Speed Decay")
+
+label("Hip Static Decay")
+
+label("ADS Static Decay")
+
+label("Hip Pitch Min")
+
+label("ADS Pitch Min")
+
+label("Hip Pitch Max")
+
+label("ADS Pitch Max")
+
+label("Hip Yaw Min")
+
+label("ADS Yaw Min")
+
+label("Hip Yaw Max")
+
+label("ADS Yaw Max")
+
+label("Hip Center Speed")
+
+label("ADS Center Speed")
+
+label("Max Angle")
+
+label("ADS Max Angle")
+
+label("Lerp Speed")
+
+label("ADS Lerp Speed")
+
+label("Pitch Scale")
+
+label("ADS Pitch Scale")
+
+label("Yaw Scale")
+
+label("ADS Yaw Scale")
+
+label("Horiz Scale")
+
+label("ADS Horiz Scale")
+
+label("Vert Scale")
+
+label("ADS Vert Scale")
+
+label("Shell Shock Scale")
+
+label("Fight Distance")
+
+label("Max Distance")
+
+label("AI Vs. AI Accuracy")
+
+label("AI Vs. Player Accuracy")
+
+label("Center Reticle")
+
+label("Side Reticle")
+
+label("Center Size")
+
+label("Side Size")
+
+label("Side Position")
+
+label("Min Offset")
+
+label("Shader")
+
+label("Shader")
+
+label("Reticle")
+
+label("Width")
+
+label("Height")
+
+label("View Gun 1")
+
+label("World Gun 1")
+
+label("Default view Hand")
+
+label("World Clip Model")
+
+label("Knife Model")
+
+label("World Knife Model")
+
+label("Hide Tags")
+
+label("View Gun 2")
+
+label("World Gun 2")
+
+label("View Gun 3")
+
+label("World Gun 3")
+
+label("View Gun 4")
+
+label("World Gun 4")
+
+label("View Gun 5")
+
+label("World Gun 5")
+
+label("View Gun 6")
+
+label("World Gun 6")
+
+label("View Gun 7")
+
+label("World Gun 7")
+
+label("View Gun 8")
+
+label("World Gun 8")
+
+label("View Gun 9")
+
+label("World Gun 9")
+
+label("View Gun 10")
+
+label("World Gun 10")
+
+label("View Gun 11")
+
+label("World Gun 11")
+
+label("View Gun 12")
+
+label("World Gun 12")
+
+label("View Gun 13")
+
+label("World Gun 13")
+
+label("View Gun 14")
+
+label("World Gun 14")
+
+label("View Gun 15")
+
+label("World Gun 15")
+
+label("View Gun 16")
+
+label("World Gun 16")
+
+label("Idle")
+
+label("Empty Idle")
+
+label("Fire")
+
+label("Last Shot")
+
+label("Rechamber")
+
+label("Melee")
+
+label("Melee Charge")
+
+label("Reload")
+
+label("Reload Empty")
+
+label("Reload Start")
+
+label("Reload End")
+
+label("Raise")
+
+label("Drop")
+
+label("First Raise")
+
+label("Alt Raise")
+
+label("Alt Drop")
+
+label("Quick Raise")
+
+label("Quick Drop")
+
+label("Empty Raise")
+
+label("Empty Drop")
+
+label("Sprint In")
+
+label("Sprint Loop")
+
+label("Sprint Out")
+
+label("Nightvision Wear")
+
+label("Nightvision Remove")
+
+label("ADS Fire")
+
+label("ADS Last Shot")
+
+label("ADS Rechamber")
+
+label("ADS Up")
+
+label("ADS Down")
+
+label("Deploy")
+
+label("Breakdown")
+
+label("View Flash")
+
+label("World Flash")
+
+label("View Shell Eject")
+
+label("World Shell Eject")
+
+label("View Last Shot Eject")
+
+label("World Last Shot Eject")
+
+label("World Clip Drop Effect")
+
+label("Pickup")
+
+label("Pickup (Player)")
+
+label("Ammo Pickup")
+
+label("Ammo Pickup (Player)")
+
+label("Fire")
+
+label("Fire (Player)")
+
+label("Last Shot")
+
+label("Last Shot (Player)")
+
+label("Empty Fire")
+
+label("Empty Fire (Player)")
+
+label("crack")
+
+label("whizby")
+
+label("Melee Swipe")
+
+label("Melee Swipe (Player)")
+
+label("Melee Hit")
+
+label("Melee Miss")
+
+label("Deploy")
+
+label("Deploy (Player)")
+
+label("Finish Deploy")
+
+label("Finish Deploy (Player)")
+
+label("Breakdown")
+
+label("Breakdown (Player)")
+
+label("Rechamber")
+
+label("Rechamber (Player)")
+
+label("Reload")
+
+label("Reload (Player)")
+
+label("Reload Empty")
+
+label("Reload Empty (Player)")
+
+label("Reload Start")
+
+label("Reload Start (Player)")
+
+label("Reload End")
+
+label("Reload End (Player)")
+
+label("Alt Switch")
+
+label("Alt Switch (Player)")
+
+label("Raise")
+
+label("Raise (Player)")
+
+label("First Raise")
+
+label("First Raise (Player)")
+
+label("Put Away")
+
+label("Put Away (Player)")
+
+label("NightVis Wear")
+
+label("NightVis Wear (Player)")
+
+label("NightVis Remove")
+
+label("NightVis Remove (Player)")
+
+label("")
+
+label("Hud Icon")
+
+label(" Aspect:")
+
+label("Kill Icon")
+
+label(" Aspect:")
+
+label(" Flip:")
+
+label("DPad Icon")
+
+label(" Aspect:")
+
+label("Ammo Counter Icon")
+
+label(" Aspect:")
+
+label("Ammo Counter Clip Style")
+
+label("ADS Start")
+
+label("ADS End")
