@@ -1,6 +1,8 @@
 # WeaponsEditor++ v1.0.0
 Full GUI frontend for creating and editing CoD-format weaponFiles
 
+<img src="screenshot.png"/>
+
 ## Open Any WeaponFile
 Open any weaponfile with the program, no GDTs necessary.
 
