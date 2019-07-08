@@ -85,3 +85,14 @@ v1.0.0:
  - You can now open a new instance of the program using the File menu.
  - You can now open the current file to a new instance of the program by using the File menu.
  - You can now open a weaponFile by dragging it onto the WeaponsEditor++.exe itself.
+
+v2.0.0:
+  - Black Ops 1 weapon support has been fully added with includes the following:
+    + being able to change 'parentWeaponName'
+    + set the dualwield weapon.
+    + add Dive to Prone animations to your weapon.
+    + add Empty Sprint animations to your weapon.
+    + add Low Ready animations to your weapon.
+    + have Variable Zooms (3) with any weapon that has a variable zoom scope.
+    + change the Statetimers for the Dive to Prone and Low Ready. 
+  - Fixed some naming typos.
