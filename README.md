@@ -1,4 +1,4 @@
-# WeaponsEditor++ v1.0.0
+# WeaponsEditor++ v2.0.0
 Full GUI frontend for creating and editing CoD-format weaponFiles
 
 <img src="screenshot.png"/>
@@ -96,3 +96,5 @@ v2.0.0:
     + have Variable Zooms (3) with any weapon that has a variable zoom scope.
     + change the Statetimers for the Dive to Prone and Low Ready. 
   - Fixed some naming typos.
+  - When converting to a CoD5 weaponfile or opening a Cod5 weaponfile, the Bo1 settings will be disabled
+  and they CANNOT be enabled by the "Advanced Mode".
