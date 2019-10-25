@@ -1,4 +1,5 @@
-﻿using System.Reflection;
+﻿using System.Resources;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.InteropServices;
 
@@ -6,7 +7,7 @@ using System.Runtime.InteropServices;
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
 [assembly: AssemblyTitle("UGX WeaponsEditor++")]
-[assembly: AssemblyDescription("Edits raw weaponFiles for Call of Duty 5: World at War.")]
+[assembly: AssemblyDescription("Edits raw weaponFiles for Call of Duty 5: World at War and Call of Duty: Black Ops.")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("UGX - Ultimate Gaming Experience")]
 [assembly: AssemblyProduct("UGX WeaponsEditor++")]
@@ -96,5 +97,7 @@ using System.Runtime.InteropServices;
 // - Loaded weapons are now put into their own tabs! This means you can have multiple weapons open at a time :)
 // - Added Compare feature - you can compare the stats between two weapon files now - stats which differ between the files are highlighted in red, and if you hover over them the other value is shown.
 
-[assembly: AssemblyVersion("1.0.0.0")]
-[assembly: AssemblyFileVersion("1.0.0.0")]
+[assembly: AssemblyVersion("2.0.0.0")]
+[assembly: AssemblyFileVersion("2.0.0.0")]
+[assembly: NeutralResourcesLanguage("")]
+

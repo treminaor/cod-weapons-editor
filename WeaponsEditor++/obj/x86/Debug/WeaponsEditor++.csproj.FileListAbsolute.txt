@@ -1,0 +1,37 @@
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csprojAssemblyReference.cache
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.About.resources
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.AreYouSure.resources
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.OpenNewlyCreatedFile.resources
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Form1.resources
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Properties.Resources.resources
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csproj.GenerateResource.cache
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.pdb
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csproj.CoreCompileInputs.cache
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabe\Desktop\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.pdb
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.exe.config
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.pdb
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csprojAssemblyReference.cache
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.About.resources
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.AreYouSure.resources
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.OpenNewlyCreatedFile.resources
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Form1.resources
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Properties.Resources.resources
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csproj.GenerateResource.cache
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csproj.CoreCompileInputs.cache
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabe\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.pdb
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.exe.config
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\bin\Debug\UGX WeaponsEditor++.pdb
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csprojAssemblyReference.cache
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.About.resources
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.AreYouSure.resources
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.OpenNewlyCreatedFile.resources
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Form1.resources
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor__.Properties.Resources.resources
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\WeaponsEditor++.csproj.GenerateResource.cache
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.exe
+C:\Users\Gabriel\Desktop\CoDTools\cod-weapons-editor-master\WeaponsEditor++\obj\x86\Debug\UGX WeaponsEditor++.pdb

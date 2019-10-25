@@ -35,7 +35,7 @@ namespace WeaponsEditor__
         {
             InitializeComponent();
             this.Text = "UGX WeaponsEditor++ v" + Application.ProductVersion.Substring(0, 5);
-            Version nonBeta = new Version(1, 0, 0, 0);
+            Version nonBeta = new Version(2, 0, 0, 0);
             if (System.Reflection.Assembly.GetExecutingAssembly().GetName().Version < nonBeta)
                 this.Text += " BETA";
 
@@ -574,7 +574,7 @@ namespace WeaponsEditor__
             }
 
             // get the running version  
-            Version curVersion = System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+            Version curVersion = getVersion();
             // compare the versions  
             if (curVersion.CompareTo(newVersion) < 0)
             {
@@ -1111,6 +1111,7 @@ namespace WeaponsEditor__
             if (checkBox.Checked)
             {
                 savedControlsState.Clear();
+                disableBOSettings("Enable");
                 consoleOut("Advanced mode activated. All disabled settings are now available.");
                 func = (controls) =>
                 {
@@ -1147,7 +1148,7 @@ namespace WeaponsEditor__
                         }
                     }
                 };
-
+                this.consoleOut("Disabled BO settings.");
                 func(Controls);
             }
             else
@@ -1156,6 +1157,11 @@ namespace WeaponsEditor__
 
                 func = (controls) =>
                 {
+                    if (fileFormatL.Text == "CoD5")
+                    {
+                        disableBOSettings("Disable");
+                        this.consoleOut("All BO settings are disabled.");
+                    }
                     foreach (Control control in savedControlsState)
                     {
                         if (control.Name == "searchBox" || control.Name == "consoleT" || control.Name == "loadedFileT" || control.Name == "advancedMode" || control.Name == "convertCod5") //some specific stuff that doesn't need to be disabled
@@ -1192,8 +1198,6 @@ namespace WeaponsEditor__
                 };
 
                 func(Controls);
-
-
             }
         }
 
@@ -1435,9 +1439,11 @@ namespace WeaponsEditor__
         }
         private void convertCod5_Click(object sender, EventArgs e)
         {
+            disableBOSettings("Disable");
             bool deleteRest = false;
             bool deletedAny = false;
             int count = 0;
+
             foreach (KeyValuePair<string, string> setting in sourceDict.ToList())
             {
                 if (setting.Key == "adsZoomFov2")
@@ -1464,6 +1470,7 @@ namespace WeaponsEditor__
                     }
                 }
                 //The first in the list of ikHandle trash.
+
                 if (setting.Key == "ikLeftHandOffsetF")
                     deleteRest = true;
                 if (deleteRest)
@@ -1476,7 +1483,9 @@ namespace WeaponsEditor__
                 consoleOut("File successfully converted. Remember to check the playerAnimType and save your changes!");
             }
             else
+            {
                 consoleOut("Error: Not a BO1 weaponFile, conversion failed.");
+            }
         }
 
         protected override void OnFormClosing(FormClosingEventArgs e)
@@ -1575,6 +1584,72 @@ namespace WeaponsEditor__
             System.Diagnostics.Process p = new System.Diagnostics.Process();
             p.StartInfo.FileName = Application.ExecutablePath;
             p.Start();
+        }
+
+        private void disableBOSettings(string option)
+        {
+            TextBox[] boExtras =
+            {
+                    dtp_empty_inT,
+                    dtp_empty_loopT,
+                    dtp_empty_outT,
+                    dtp_inT,
+                    dtp_loopT,
+                    dtp_outT,
+                    lowReadyInAnimT,
+                    lowReadyLoopAnimT,
+                    lowReadyOutAnimT,
+                    parentWeaponNameT,
+                    DualWieldWeaponT,
+                    lowReadyInTimeT,
+                    lowReadyLoopTimeT,
+                    lowReadyOutTimeT,
+                    dtpInTimeT,
+                    dtpLoopTimeT,
+                    dtpOutTimeT,
+                    lowReadyOfsFT,
+                    lowReadyOfsRT,
+                    lowReadyOfsUT,
+                    lowReadyRotPT,
+                    lowReadyRotYT,
+                    lowReadyRotRT,
+                    sprintInEmptyAnimT,
+                    sprintLoopEmptyAnimT,
+                    sprintOutEmptyAnimT,
+                    adsZoomFov1T,
+                    adsZoomFov2T,
+                    adsZoomFov3T,
+                    adsZoomSoundT
+            };
+
+            if (option == "Disable")
+            {
+                groupBox12.Enabled = false;
+                foreach (TextBox boSetting in boExtras)
+                {
+                    boSetting.Enabled = false;
+                    boSetting.Text = "";
+                }
+            }
+            else if(option == "Enable")
+            {
+                groupBox12.Enabled = true;
+                foreach (TextBox boSetting in boExtras)
+                {
+                    boSetting.Enabled = true;
+                    boSetting.Text = "";
+                }
+            }
+        }
+
+        private Version getVersion()
+        {
+            return System.Reflection.Assembly.GetExecutingAssembly().GetName().Version;
+        }
+
+        private void pictureBox1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }
