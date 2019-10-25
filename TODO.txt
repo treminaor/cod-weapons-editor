@@ -1,0 +1,2 @@
+Opening new files triggers the "Unsaved Changes" popup... even though no changes have been made. The status of unsaved changes should be cleared on every file load.
+Reopening saved files can cause them to be locked in read-only mode (see PMs from MakeCents)
